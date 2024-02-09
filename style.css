@@ -16,6 +16,7 @@ body {
 }
 header {
   margin-left: 40px;
+  margin-bottom: 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -203,4 +204,8 @@ ul {
   .fact-form .btn:hover {
     transform: rotate(-2deg);
   }
+}
+
+.hidden {
+  display: none;
 }
